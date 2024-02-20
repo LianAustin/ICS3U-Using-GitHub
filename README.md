@@ -38,14 +38,16 @@ NOTE: Try not to confuse the terminal's command prompt with the actual code outp
 
 ![vs_code_editing](images/05A.gif)
 
-## 5. Commit and push your changes to GitHub
-When you are finished editing your code, you will want to sync or push your changes back to GitHub online. 
+## 5. Commit and sync your changes to GitHub
+When you are finished editing your code, you will want to Sync or Push your changes back to GitHub online. 
 
 ![commit](images/commit.png)
 
 
 - **Commit**: This action records changes to the local repository. When you commit changes, you are creating a *checkpoint* with a message describing the changes made.
 - **Push**: This action uploads the committed changes from your local repository to the remote repository on GitHub. Pushing syncronizes your local changes with the remote repository, allowing others to see the changes and collaborate with you.
+- **Pull**: This action look at the remote repository on GitHub and compares it to your cloned local repository. New changes are fetched and merged with your local repository, warning you of any conflicts.
+- **Sync**: This action is combination of all of the above. A *Sync* action will commit and push local changes to the remote repo, as well as pull any new changes from the remote repository.
 
 ### GitHub configuration error
 When you try to do your first GitHub commit in Visual Studio Code, you will likely get a GitHub configuration error like this:
