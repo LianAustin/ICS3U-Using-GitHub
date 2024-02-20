@@ -18,11 +18,11 @@ Cloning your repo to Visual Studio Code creates a local, offline copy on your ma
 
 ![cloning](images/02.gif)
 
-- Next, go to Visual Studio Code. Go to **File** > **New Window**.
+- Next, open Visual Studio Code. Go to **File** > **New Window** in the menu bar.
 - In the new Visual Studio Code window, click on **Clone Git Repository**.
 - Paste the URL from the clipboard into the prompt and press return.
-- You'll be asked where you want to save this cloned folder. Here, I've chosen my  *Documents* folder.
-- Finally, open your cloned repository.
+- You'll be asked where you want to save this cloned folder. (In the example below, I've chosen my *Documents* folder.)
+- Open your cloned repository.
 
 ![vs_code_cloning](images/03.gif)
 
@@ -45,8 +45,8 @@ When you are finished editing your code, you will want to Sync or Push your chan
 
 
 - **Commit**: This action records changes to the local repository. When you commit changes, you are creating a *checkpoint* with a message describing the changes made.
-- **Push**: This action uploads the committed changes from your local repository to the remote repository on GitHub. Pushing syncronizes your local changes with the remote repository, allowing others to see the changes and collaborate with you.
-- **Pull**: This action look at the remote repository on GitHub and compares it to your cloned local repository. New changes are fetched and merged with your local repository, warning you of any conflicts.
+- **Push**: This action uploads the committed changes from your local repository to the remote repository on GitHub.
+- **Pull**: This action downloads any new changes from the remote repository since the last sync or clone. New changes are merged with your local repository, warning you of any conflicts.
 - **Sync**: This action is combination of all of the above. A *Sync* action will commit and push local changes to the remote repo, as well as pull any new changes from the remote repository.
 
 ### Fixing the GitHub configuration error
@@ -56,22 +56,22 @@ When you try to do your first GitHub commit in Visual Studio Code, you will like
 
 To fix this, enter the following two commands into the terminal, replacing `your_github_username` and `your_github_account_email` with your own:
 
-```
+```shell
 git config --global user.name 'your_github_username'
 ```
 and
-```
+```shell
 git config --global user.email 'your_github_account_email'
 ```
 
-For example, my setup would look like:
+For example, my personal setup would look like:
 
-```
+```shell
 git config --global user.name 'davecheng-ste'
 git config --global user.email 'dave.cheng@ycdsb.ca'
 ```
 
-And entered into the terminal:
+And entered into the terminal, it looks like:
 
 ![config](images/config.png)
 
