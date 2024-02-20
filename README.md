@@ -49,15 +49,18 @@ When you are finished editing your code, you will want to Sync or Push your chan
 - **Pull**: This action look at the remote repository on GitHub and compares it to your cloned local repository. New changes are fetched and merged with your local repository, warning you of any conflicts.
 - **Sync**: This action is combination of all of the above. A *Sync* action will commit and push local changes to the remote repo, as well as pull any new changes from the remote repository.
 
-### GitHub configuration error
+### Fixing the GitHub configuration error
 When you try to do your first GitHub commit in Visual Studio Code, you will likely get a GitHub configuration error like this:
 
-![error](images/error.png)
+![error](images/username_error.png)
 
-To fix this, enter the following two commands into the terminal:
+To fix this, enter the following two commands into the terminal, replacing `your_github_username` and `your_github_account_email` with your own:
 
 ```
 git config --global user.name 'your_github_username'
+```
+and
+```
 git config --global user.email 'your_github_account_email'
 ```
 
@@ -68,6 +71,12 @@ git config --global user.name 'davecheng-ste'
 git config --global user.email 'dave.cheng@ycdsb.ca'
 ```
 
+And entered into the terminal:
+
 ![config](images/config.png)
 
-Finally, try to run the Commit and Push actions again.
+Next, try to run the Commit and Sync actions again. This setup should only be necessary on your first time. 
+
+Finally, you can check the repository online to verify that your latest Commit changes are reflected:
+
+![commit_changes](images/repo_commit.png)
