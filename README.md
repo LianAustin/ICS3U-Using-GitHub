@@ -81,7 +81,7 @@ Next, try to run the Commit and Sync actions again. You should then be directed 
 
 This setup should only be necessary on your first time. 
 
-## 6. Check GitHub for update
+## 6. Verify update on GitHub (optional)
 Finally, you can check the repository online (i.e. in the cloud) to verify that your latest Commit changes are reflected:
 
 ![commit_changes](images/repo_commit.png)
