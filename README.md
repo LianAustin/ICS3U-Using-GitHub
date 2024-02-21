@@ -79,7 +79,7 @@ And entered into the terminal, it looks like:
 
 Next, try to run the Commit and Sync actions again. You should then be directed to a web browser to authenticate your GitHub username and password for Visual Studio Code.
 
-This setup should only be necessary on your first time. 
+This setup should only be necessary on your first Commit action.  
 
 ## 6. Verify update on GitHub (optional)
 Finally, you can check the repository online (i.e. in the cloud) to verify that your latest Commit changes are reflected:
