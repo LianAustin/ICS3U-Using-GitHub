@@ -52,7 +52,7 @@ When you are finished editing your code, you will want to Sync or Push your chan
 - **Sync**: This action is combination of all of the above. A *Sync* action will commit and push local changes to the remote repo, as well as pull any new changes from the remote repository.
 
 ### Fixing the GitHub configuration error
-When you try to do your first GitHub commit in Visual Studio Code, you will likely get a GitHub configuration error like this:
+When you try to do your first GitHub commit in Visual Studio Code, you will get a GitHub configuration error like this:
 
 ![error](images/username_error.png)
 
@@ -77,13 +77,16 @@ And entered into the terminal, it looks like:
 
 ![config](images/config.png)
 
-Next, try to run the Commit and Sync actions again. This setup should only be necessary on your first time. 
+Next, try to run the Commit and Sync actions again. You should then be directed to a web browser to authenticate your GitHub username and password for Visual Studio Code.
 
-Finally, you can check the repository online to verify that your latest Commit changes are reflected:
+This setup should only be necessary on your first time. 
+
+## 6. Check GitHub for update
+Finally, you can check the repository online (i.e. in the cloud) to verify that your latest Commit changes are reflected:
 
 ![commit_changes](images/repo_commit.png)
 
-## Terminology of GitHub 
+# Terminology of GitHub 
 ### Repositories
 A repository is where your project work happens--think of it as your project folder. It contains all of your project’s files and revision history. You can work within a repository alone or invite others to collaborate with you on those files.
 
