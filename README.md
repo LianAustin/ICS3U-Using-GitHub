@@ -86,6 +86,7 @@ Finally, you can check the repository online (i.e. in the cloud) to verify that 
 
 ![commit_changes](images/repo_commit.png)
 
+<br><br>
 # Terminology of GitHub 
 ### Repositories
 A repository is where your project work happens--think of it as your project folder. It contains all of your project’s files and revision history. You can work within a repository alone or invite others to collaborate with you on those files.
