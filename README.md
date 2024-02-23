@@ -52,7 +52,7 @@ When you are finished editing your code, you will want to Commit and Sync your c
 
 To Commit and Sync changes, do the following:
 
-- In the vertical menu on the left-hand side, click on the **Source Control** view.
+- In the vertical menu on the sidebar, click on the **Source Control** view.
 - You should see a list of **Changes** that will be a part of this *Commit* or *snapshot*.
 - Type a short message in the **Message** box, describing the changes made in this snapshot. **NOTE: YOU MUST TYPE A COMMIT MESSAGE!**
 - Click on **Commit** to record the snapshot.
