@@ -56,7 +56,7 @@ To Commit and Sync changes, do the following:
 - You should see a list of **Changes** that will be a part of this Commit action. Think of it as a *snapshot of changes*.
 - Type a short message in the **Message** box, describing the changes made. *IMPORTANT: YOU **MUST** TYPE A COMMIT MESSAGE!*
 - Click on **Commit** to record the snapshot.
-- Next, click on **Sync** (a combined **Push** and **Pull** action) to push the changes to the GitHub repo online.
+- Next, click on **Sync** — a combined **Push** and **Pull** action — to push the changes to the GitHub repo online.
 
 ![commit](images/commit.gif)
 
