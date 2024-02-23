@@ -8,8 +8,10 @@ These are instructions on how to work with GitHub. Before proceeding, make sure 
 - An account on GitHub set up with your @ycdsbk12.ca account.
 - Your GitHub username and email address.
 
-## 1. Fork the repository
-Create a fork of the template repository (or "repo"). This will make a copy of the repo in your own personal GitHub account.
+## 1. Fork the repository (optional)
+If you're using a repository (or "repo") provided to you from GitHub Classroom, you can skip this step.
+
+If you've been given a repository to copy, you will need to create a fork of it. Your forked repo will be stored in your own personal GitHub account.
 
 ![forking](images/01.gif)
 
