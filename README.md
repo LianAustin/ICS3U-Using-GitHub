@@ -43,17 +43,26 @@ NOTE: Try not to confuse the terminal's command prompt with the actual code outp
 ![vs_code_editing](images/05A.gif)
 
 ## 5. Commit and sync your changes to GitHub
-When you are finished editing your code, you will want to Sync or Push your changes back to GitHub online. 
+When you are finished editing your code, you will want to Commit and Sync your changes back to the GitHub repo online. 
 
-![commit](images/commit.png)
-
-
-- **Commit**: This action records changes to the local repository. When you commit changes, you are creating a *checkpoint* with a message describing the changes made.
+- **Commit**: This action records a *snapshot* of your changes. When you commit changes, you are creating a *checkpoint* with a *short message* describing the changes you made.
 - **Push**: This action uploads the committed changes from your local repository to the remote repository on GitHub.
 - **Pull**: This action downloads any new changes from the remote repository since the last sync or clone. New changes are merged with your local repository, warning you of any conflicts.
 - **Sync**: This action is combination of all of the above. A *Sync* action will commit and push local changes to the remote repo, as well as pull any new changes from the remote repository.
 
-### Fixing the GitHub configuration error
+To Commit and Sync changes, do the following:
+
+- In the vertical menu on the left-hand side, click on the **Source Control** view.
+- You should see a list of **Changes** that will be a part of this *Commit* or *snapshot*.
+- Type a short message in the **Message** box, describing the changes made in this snapshot.
+- Click on **Commit** to record the snapshot.
+- Next, click on **Sync** (a combined **Push** and **Pull** action) to push the changes to the GitHub repo online.
+
+![commit](images/commit.gif)
+
+Note that we have yet to deal with other situations including merging and resolving conflicts. More to come.
+
+### First Commit? How to fix the GitHub configuration error
 When you try to do your first GitHub commit in Visual Studio Code, you will get a GitHub configuration error like this:
 
 ![error](images/username_error.png)
