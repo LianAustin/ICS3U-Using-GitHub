@@ -58,7 +58,7 @@ To Commit and Sync changes, do the following:
 4. Click on **Commit** to record the snapshot.
 5. Next, click on **Sync** — a combined **Push** and **Pull** action — to push the changes to the GitHub repo online.
 
-![commit](images/commit.png)
+![commit](images/commit.gif)
 
 Note that we have yet to deal with other situations including merging and resolving conflicts. More to come.
 
