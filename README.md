@@ -18,15 +18,15 @@ If you've been given a repository to copy, you will need to create a fork of it.
 ## 2. Clone your repository to Visual Studio Code
 Cloning your repo to Visual Studio Code creates a local, offline copy on your machine. To do this, follow these steps:
 
-- From the GitHub page for the repo, copy the URL for your fork to the clipboard:
+1. From the GitHub page for the repo, copy the URL for your fork to the clipboard:
 
 ![cloning](images/02.gif)
 
-- Next, open Visual Studio Code. Go to **File** > **New Window** in the menu bar.
-- In the new Visual Studio Code window, click on **Clone Git Repository**.
-- Paste the URL from the clipboard into the prompt and press return.
-- You'll be asked where you want to save this cloned folder. (In the example below, I've chosen my *Documents* folder.)
-- Open your cloned repository.
+2. Next, open Visual Studio Code. Go to **File** > **New Window** in the menu bar.
+3. In the new Visual Studio Code window, click on **Clone Git Repository**.
+4. Paste the URL from the clipboard into the prompt and press return.
+5. You'll be asked where you want to save this cloned folder. (In the example below, I've chosen my *Documents* folder.)
+6. Open your cloned repository.
 
 ![vs_code_cloning](images/03.gif)
 
@@ -52,11 +52,11 @@ When you are finished editing your code, you will want to Commit and Sync your c
 
 To Commit and Sync changes, do the following:
 
-- In the sidebar, click on the **Source Control** view.
-- You should see a list of **Changes** that will be a part of this Commit action. Think of it as a *snapshot of changes*.
-- Type a short message in the **Message** box, describing the changes made. *IMPORTANT: YOU **MUST** TYPE A COMMIT MESSAGE!*
-- Click on **Commit** to record the snapshot.
-- Next, click on **Sync** — a combined **Push** and **Pull** action — to push the changes to the GitHub repo online.
+1. In the sidebar, click on the **Source Control** view.
+2. You should see a list of **Changes** that will be a part of this Commit action. Think of it as a *snapshot of changes*.
+3. Type a short message in the **Message** box, describing the changes made. *IMPORTANT: YOU **MUST** TYPE A COMMIT MESSAGE!*
+4. Click on **Commit** to record the snapshot.
+5. Next, click on **Sync** — a combined **Push** and **Pull** action — to push the changes to the GitHub repo online.
 
 ![commit](images/commit.gif)
 
