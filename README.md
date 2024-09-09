@@ -1,3 +1,6 @@
+# Test commit
+
+
 # The Basics of GitHub
 
 Git is a distributed Version Control System (VCS), which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source.
@@ -11,27 +14,29 @@ These are instructions on how to work with GitHub. Before proceeding, make sure 
 ## <a name='TableofContents'></a>Table of Contents
 
 <!-- vscode-markdown-toc -->
-* [Table of Contents](#TableofContents)
-* [Step 1: Fork the repository (optional)](#Step1Forktherepositoryoptional)
-* [Step 2: Clone your repository to Visual Studio Code](#Step2:CloneyourrepositorytoVisualStudioCode)
-* [Step 3: Edit your code](#Step3:Edityourcode)
-* [Step 4: Run your code](#Step4:Runyourcode)
-* [Step 5: Commit and sync your changes to GitHub](#Step5:CommitandsyncyourchangestoGitHub)
-	* [First Commit? How to fix the GitHub configuration error](#FirstCommitHowtofixtheGitHubconfigurationerror)
-* [Step 6: Verify update on GitHub (optional)](#Step6:VerifyupdateonGitHuboptional)
-* [Writing Meaningful Commit Messages](#WritingMeaningfulCommitMessages)
-	* [Examples of Commit Messages](#ExamplesofCommitMessages)
-		* [Example: Completion](#Example:Completion)
-		* [Example: Work in Progress](#Example:WorkinProgress)
-		* [Example: Work in Progress - Informative](#Example:WorkinProgress-Informative)
-* [Terminology of GitHub](#TerminologyofGitHub)
-	* [Repositories](#Repositories)
-	* [Cloning](#Cloning)
-	* [Committing and pushing](#Committingandpushing)
-	* [Branches](#Branches)
-	* [Forks](#Forks)
-	* [Pull requests](#Pullrequests)
-	* [Issues](#Issues)
+- [Test commit](#test-commit)
+- [The Basics of GitHub](#the-basics-of-github)
+	- [Table of Contents](#table-of-contents)
+	- [Step 1: Fork the repository (optional)](#step-1-fork-the-repository-optional)
+	- [Step 2: Clone your repository to Visual Studio Code](#step-2-clone-your-repository-to-visual-studio-code)
+	- [Step 3: Edit your code](#step-3-edit-your-code)
+	- [Step 4: Run your code](#step-4-run-your-code)
+	- [Step 5: Commit and sync your changes to GitHub](#step-5-commit-and-sync-your-changes-to-github)
+		- [First Commit? How to fix the GitHub configuration error](#first-commit-how-to-fix-the-github-configuration-error)
+	- [Step 6: Verify update on GitHub (optional)](#step-6-verify-update-on-github-optional)
+	- [Writing Meaningful Commit Messages](#writing-meaningful-commit-messages)
+		- [Examples of Commit Messages](#examples-of-commit-messages)
+			- [Example: Completion](#example-completion)
+			- [Example: Work in Progress](#example-work-in-progress)
+			- [Example: Work in Progress - Informative](#example-work-in-progress---informative)
+	- [Terminology of GitHub](#terminology-of-github)
+		- [Repositories](#repositories)
+		- [Cloning](#cloning)
+		- [Committing and pushing](#committing-and-pushing)
+		- [Branches](#branches)
+		- [Forks](#forks)
+		- [Pull requests](#pull-requests)
+		- [Issues](#issues)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
