@@ -1,4 +1,20 @@
 public class HelloWorld {
+
+    /**
+     * This is the main method that prints out "Hello, World!" to the console.
+     * @param args
+     *           the command line arguments
+     * @return void
+     *          no return value
+     * @see System.out.println
+     *         prints out the message to the console
+     * @see StringBuilder
+     *        used to build the message
+     * @see StringBuilder.append
+     *       used to append the characters to the message
+     * @see StringBuilder.toString
+     *      used to convert the message to a string
+     */
     public static void main(String[] args) {
         String h = "H";
         String e = "e";
