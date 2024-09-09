@@ -1,5 +1,7 @@
 # Test commit
 
+# Another test commit
+
 # The Basics of GitHub
 
 Git is a distributed Version Control System (VCS), which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source.
@@ -14,6 +16,7 @@ These are instructions on how to work with GitHub. Before proceeding, make sure 
 
 <!-- vscode-markdown-toc -->
 - [Test commit](#test-commit)
+- [Another test commit](#another-test-commit)
 - [The Basics of GitHub](#the-basics-of-github)
 	- [Table of Contents](#table-of-contents)
 	- [Step 1: Fork the repository (optional)](#step-1-fork-the-repository-optional)
